@@ -164,14 +164,15 @@ header{
 }
 
 .content{
-    width: 880px;    
+    width: 60%;    
     border: 1px solid #171717;
-    margin-left: 500px;
-    margin-top: 20px;
+    margin: 0 auto;
+    /* margin-top: 20px; */
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 20px;
     border-radius: 5px;
+    margin-bottom: 50px;
 }
 
 .title {
