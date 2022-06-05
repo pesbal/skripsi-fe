@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registrasi</title>
+	<!-- <link rel="stylesheet" type="text/css" href="datadiri.css"> -->
+	<link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+	<header>
+		<div class="navbar">
+			<a href="index.html"><img class="logo" src="assets/logohtm.png" alt="Logo PT Cilegon fabricator" width="200px" height="50px"></a>
+   				<ul>
+    				<li><a href="#">Login admin</a></li>
+   				</ul>
+  		</div>
+  	</header>
+	<section class="step-wizard">
+		<ul class="step-wizard-list">
+			<li class="step-wizard-item ">
+				<span class="progress-count">1</span>
+				<span class="progress-label">Upload KTP</span>	
+			</li>
+			<li class="step-wizard-item current-item">
+				<span class="progress-count">2</span>
+				<span class="progress-label">Data Diri</span>	
+			</li>
+			<li class="step-wizard-item next-item">
+				<span class="progress-count">3</span>
+				<span class="progress-label">Scan Wajah</span>	
+			</li>
+			<li class="step-wizard-item next-item">
+				<span class="progress-count">4</span>
+				<span class="progress-label">Registrasi Kegiatan</span>	
+			</li>
+			<li class="step-wizard-item next-item">
+				<span class="progress-count">5</span>
+				<span class="progress-label">Tiket</span>	
+			</li>										
+		</ul>
+	</section>
+	<h2 class="title">Data Diri</h2>
+
+	<div class="content">
+		<form class="form">
+			<div class="input_field">
+				<label>NIK</label>
+				<input type="text" name="input" placeholder="Masukan NIK" required="">
+			</div>
+			<div class="input_field">
+				<label>Nama Lengkap</label>
+				<input type="text" name="input" placeholder="Masukan Nama Lengkap" required="">
+			</div>
+			<div class="input_field">
+				<label>Jenis Kelamin</label>
+				<div class="custome-select">
+					<select required="">
+						<option value="">Pilih --</option>
+						<option value="pria">Pria</option>
+						<option value="wanita">Wanita</option>
+					</select>
+				</div>
+				
+			</div>
+			<div class="input_field">
+				<label>Nomor telepon</label>
+				<input type="number" name="input" placeholder="Masukan Nomor Telepon" required="" min="12">
+			</div>
+			<div class="input_field">
+				<label>Jabatan</label>
+				<input type="text" name="input" placeholder="Masukan Jabatan" required="">
+			</div>
+			<div class="input_field">
+				<label>Nama Perusahaan</label>
+				<input type="text" name="input" placeholder="Masukan Nama Perusahaan" required="">
+			</div>
+			<div class="input_field">
+				<label>Alamat Perusahaan</label>
+				<textarea placeholder="Masukan Alamat Perusahaan" required=""></textarea>
+			</div>
+			<div class="input_field">
+				<input type="submit" value="Selanjutnya" class="btn">
+			</div>		
+		</form>
+	</div>
+	<script type="text/javascript">
+
+	</script>
+
+</body>
+</html>
