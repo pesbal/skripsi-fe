@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registrasi</title>
+	<!-- <link rel="stylesheet" type="text/css" href="uploadfile.css"> -->
+	<link rel="stylesheet" href="src/css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<!-- <script type="text/javascript" src="https://kit.fontawesome.com/a076d05399.js"></script> -->	
+</head>
+<body>
+	<!-- Template -->
+	<header>
+		<div class="navbar">
+   			<a href="index.html"><img class="logo" src="assets/logohtm.png" alt="Logo PT Cilegon fabricator" width="200px" height="50px"></a>
+   				<ul>
+    				<li><a href="#">Login admin</a></li>
+   				</ul>
+  		</div>
+  	</header>
+	<!-- Template -->
+	<section class="step-wizard">
+		<ul class="step-wizard-list">
+			<li class="step-wizard-item current-item">
+				<span class="progress-count">1</span>
+				<span class="progress-label">Upload KTP</span>	
+			</li>
+			<li class="step-wizard-item next-item ">
+				<span class="progress-count">2</span>
+				<span class="progress-label">Data Diri</span>	
+			</li>
+			<li class="step-wizard-item next-item">
+				<span class="progress-count">3</span>
+				<span class="progress-label">Scan Wajah</span>	
+			</li>
+			<li class="step-wizard-item next-item">
+				<span class="progress-count">4</span>
+				<span class="progress-label">Registrasi Kegiatan</span>	
+			</li>
+			<li class="step-wizard-item next-item">
+				<span class="progress-count">5</span>
+				<span class="progress-label">Tiket</span>	
+			</li>										
+		</ul>
+	</section>
+
+	<!-- Template Dynamic -->
+	<h2 class="title">Upload KTP</h2>	
+	
+	<!-- Template -->
+	<div class="content">				
+			<!-- <h2>Upload KTP</h2> -->
+			<!-- yield content -->
+		<div class="photo-form">
+			<form action="#" id="formreset" name="formreset">
+
+				<i class="fa fa-cloud-upload-alt"></i>
+				<p>Unggah File Untuk Upload</p>
+				<span>or</span>
+				<button id="upload-btn" class="btn-primary" style="margin-top: 40px;">Unggah Berkas</button>
+				<input type="file" hidden="" id="inputgambar">
+			</form>		
+		</div>
+
+		<div class="tombolbwh" id="tombolbawah">
+			<a href="datadiri.html"><button class="btn-primary">Selanjutnya</button></a>
+			<a onclick="reset1()"><button class="btn-primary">Upload Ulang</button></a> 
+		</div>	
+	</div>
+
+		<script src="src/js/main.js"></script>
+		<script src="uploadfile.js"></script>
+</body>
+</html>
